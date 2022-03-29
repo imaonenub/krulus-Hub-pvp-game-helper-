@@ -10,7 +10,7 @@ local Tab = Window:NewTab("helper pvp game")
 local Section = Tab:NewSection("run")
 
 
-Section:NewButton("Esp[Press B To open!]", "runEXE", function()
+Section:NewButton("Esp 500 block[Press B To open!]", "runEXE", function()
     loadstring(game:HttpGet(("https://raw.githubusercontent.com/imaonenub/esp/main/exp"), true))()
 end)
 
